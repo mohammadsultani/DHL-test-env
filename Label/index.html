@@ -7,7 +7,6 @@
     <title>DHL Label</title>
     <meta name="description" content="The HTML5 Herald">
     <meta name="author" content="SitePoint">
-
     <link rel="stylesheet" href="./style.css">
 
 </head>
@@ -23,12 +22,12 @@
             <p class="order-id">Order ID: 18012293740934M</p>
             <div class="sub-boxes">
                 <p class="boxes-text boxes-border">PDO</p>
-                <p class="boxes-text boxes-border">MYKBR1</p>
-                <p class="boxes-text">EAS1</p>
+                <p class="boxes-text boxes-border" id="depot">MYPCH1</p>
+                <p class="boxes-text">CEN1</p>
             </div>
             <div class="qr-container">
                 <div class="qr-code-box">
-                    <img src="./qrcode.png" class="qr-code" width="200" height="200" alt="QR code">
+                    <img src="./qrcode.png" class="qr-code" id="qr-code" width="200" height="200" alt="QR code">
                 </div>
                 <div class="sender-box">
                     <p class="sender-tag">Sender Adderess:</p>
@@ -49,7 +48,8 @@
                 <p class="cod">COD: 120</p>
             </div>
             <div class="barcode-section">
-                <img src="./barcode.png" width="600" class="barcode-image" alt="Barcode">
+                <img src="http://bwipjs-api.metafloor.com/?bcid=code128&text=5020115488513490" width="600" id="barcode"
+                    class="barcode-image" alt="Barcode">
                 <p class="id-text">
                     <span class="dhl-id">DHL ID</span>: <span class="id-number">59201000000000019</span>
                 </p>
@@ -58,12 +58,13 @@
             <div class="sub-boxes">
                 <p class="boxes-text boxes-border"></p>
                 <p class="boxes-text boxes-border"></p>
-                <p class="boxes-text">D01</p>
+                <p class="boxes-text">B13</p>
             </div>
         </div>
 
     </div>
-
+    <script src="../index.js">
+    </script>
 
 
 
