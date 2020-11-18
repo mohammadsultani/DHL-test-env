@@ -1,5 +1,5 @@
-const util = require('util')
-const axios = require('axios')
+// const util = require('util')
+// const axios = require('axios')
 
 // Getting the Token
 // axios.get('https://apitest.dhlecommerce.asia/rest/v1/OAuth/AccessToken?clientId=LTExMTgwNTI4MTY=&password=APITest1&returnFormat=json')
@@ -10,10 +10,8 @@ const axios = require('axios')
 
 
 // Calling the shipment creation API
-
-let imageBox = document.getElementById('qr-code')
-imageBox.src = 'http://api.qrserver.com/v1/create-qr-code/?data=5020115488513490!&size=200x200'
-
+// let imageBox = document.getElementById('qr-code')
+// imageBox.src = 'https://api.qrserver.com/v1/create-qr-code/?data=5120115490551570!&size=200x200'
 // const updateElement = (id, attr, value) => {
 // let element = window.document.getElementById(id)
 // if (value) element[attr] = value
