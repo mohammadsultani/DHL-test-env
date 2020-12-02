@@ -1,6 +1,8 @@
 // const util = require('util')
 // const axios = require('axios')
-
+const test = () => {
+    window.print()
+}
 // Getting the Token
 // axios.get('https://apitest.dhlecommerce.asia/rest/v1/OAuth/AccessToken?clientId=LTExMTgwNTI4MTY=&password=APITest1&returnFormat=json')
 //     .then(res => {

@@ -19,50 +19,55 @@
         </div>
         <!-- SUB CONTAINER -->
         <div class="sub-container">
-            <p class="order-id"><span class="order-label">Order ID</span>: 18012293740934M</p>
+            <p class="order-id"><span class="order-label">Order ID</span>: 18012293740934</p>
             <div class="sub-boxes">
                 <p class="boxes-text boxes-border">PDO</p>
-                <p class="boxes-text boxes-border" id="depot">MYPCH1</p>
-                <p class="boxes-text">CEN1</p>
+                <p class="boxes-text boxes-border" id="depot">MYSUB1</p>
+                <p class="boxes-text">CEN2</p>
             </div>
             <div class="qr-container">
                 <div class="qr-code-box">
-                    <img src="https://api.qrserver.com/v1/create-qr-code/?data=5120115490551570!&size=200x200"
+                    <img src="https://api.qrserver.com/v1/create-qr-code/?data=5220118117867970&size=200x200"
                         class="qr-code" id="qr-code" width="200" height="200" alt="QR code">
                 </div>
                 <div class="sender-box">
                     <p class="sender-tag">Sender Adderess:</p>
-                    <p class="sender-add">Geotest 2.0, Tamn Test Test Salengor, Petaling Jaya 1500</p>
+                    <p class="sender-add">David Chai</p>
+                    <p class="sender-add">2 Jalan kenanga SD9/1D, Bandar Seri Damansara</p>
+                    <p class="sender-add">52200</p>
                 </div>
             </div>
             <!-- Ship to box -->
             <div class="ship-box">
                 <p class="ship-text reciever">Ship To:</p>
-                <p class="ship-text ship-to-name">Sultani</p>
-                <p class="ship-text">20, Kampung Baru Test</p>
+                <p class="ship-text ship-to-name">Deric</p>
+                <p class="ship-text">10, Jalan USJ 1/3d, Taman Grandville, Subang Jaya</p>
                 <p class="ship-text">Selangor</p>
-                <p class="ship-text last">97000</p>
+                <p class="ship-text last">47600</p>
             </div>
-            <p class="phone-number">Phone No:182646076</p>
+            <p class="phone-number">Phone No:01123456789</p>
             <!-- Barcode section -->
-            <div class="ph-box">
-                <p class="cod">COD: 120</p>
-            </div>
             <div class="barcode-section">
-                <img src="http://bwipjs-api.metafloor.com/?bcid=code128&text=5120115490551570" width="600" id="barcode"
+                <div class="ph-box">
+                    <p class="cod">COD:0</p>
+                </div>
+                <img src="http://bwipjs-api.metafloor.com/?bcid=code128&text=5220118117867970" width="600" id="barcode"
                     class="barcode-image" alt="Barcode">
                 <p class="id-text">
-                    <span class="dhl-id">DHL ID</span>: <span class="id-number">59201000000000019</span>
+                    <span class="dhl-id">DHL ID</span>: <span class="id-number">5220118117867970</span>
                 </p>
             </div>
             <!-- FOOTER BOXES -->
             <div class="sub-boxes footer">
                 <p class="boxes-text boxes-border"></p>
                 <p class="boxes-text boxes-border"></p>
-                <p class="boxes-text">B13</p>
+                <p class="boxes-text">BC02</p>
             </div>
         </div>
+    </div>
 
+    <div>
+        <button id="button" onclick="test()">Click me</button>
     </div>
     <script src="../index.js">
     </script>

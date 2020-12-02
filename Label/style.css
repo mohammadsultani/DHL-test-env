@@ -53,11 +53,17 @@
     flex: 2;
     margin-left: 60px;
 }
+.sender-name {
+    font-size: 25px;
+    margin: 0px;
+}
 .sender-tag {
+    margin: 0px;
     font-size: 26px;
     font-weight: bold;
 }
 .sender-add{
+    margin: 0px;
     width: 60%;
     height: auto;
     font-size: 25px;
@@ -73,31 +79,34 @@
     font-weight: bold;
 }
 .ship-text {
-    background-color: aqua; 
     font-size: 25px;
     margin-top: 0px;
     margin-bottom: 0px;
 }
 .phone-number {
-    background-color: greenyellow;
     font-size: 26px;
     font-weight: lighter;
     margin-left: 30px;
-    margin-top: 30px;
+    margin-top: 35px;
     margin-bottom: 0px;
 }
 .ph-box {
-    width: 60%;
+    width: 80%;
     margin: auto auto;
     display: flex;
     justify-content: flex-end;
 
 }
 .ph-number, .cod {
-    background-color: hotpink;
     font-size: 26px;
     font-weight: lighter;
-    margin-bottom: 4px;
+    margin-top: 20px;
+}
+.cod {
+    margin-bottom: 2px;
+}
+.barcode-section {
+    margin-top: 40px;
 }
 .barcode-image {
     display: block;
@@ -106,12 +115,12 @@
     height: 100px;
     object-fit: cover;
 }
-.footer {
-    margin-top: 10px;
-}
 .id-text {
     margin: 0px auto;
     text-align: center;
+}
+.footer {
+    margin-top: 20px;
 }
 .dhl-id{
     font-size: 26px;
